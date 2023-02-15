@@ -22,7 +22,7 @@
                 </div>
                 <div class="text3 text-center">CHOOSE YOUR ANSWER BELOW</div>
                 <div class="flex-container">
-                    <button type="button" class="btn btn-danger flex-item">No</button>
+                    <button type="button" class="btn btn-danger flex-No">No</button>
                     <button type="button" class="btn btn-primary flex-item1">Yes</button>
                 </div>
                 <p id="msg" style="display:none;" class='text-center'></p>
