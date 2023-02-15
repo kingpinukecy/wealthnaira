@@ -1,0 +1,482 @@
+/*
+    Candara
+    Georgia
+    Adobe Caslon Pro
+    One Flew Over The Cuckoo's Nest
+    Poor Richard
+    Segoe UI Semibold
+    Sitka Text
+    Square721 BT
+    Trebuchet MS
+    lato
+    Lucida Calligraphy -italic
+   Monotype Corsiva -italic */ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman' !important;
+}
+a{
+    text-decoration: none !important;
+}
+.container{
+    width: 60% !important;
+    margin: 2% 0%;
+}
+.progress{
+    height: 30px !important;
+    margin: 30px 0px;
+}
+#content-1 .text1,#content-2 .text1{
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+#content-1 .text2,#content-2 .text2{
+    font-weight:bold;
+    font-size: 2.2em;
+}
+#content-1 .text3{
+    color: #555;
+    font-weight: bold;
+    margin: 30px 0;
+}
+#content-2{
+    display: none;
+}
+#content-2 .text2{
+    margin: 10% 0%;
+}
+#content-2 a{
+    font-size: 1.4em;
+}
+#content-2 ol{
+    margin-bottom: 20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding:1%  10% !important;
+    margin-bottom: 70px;
+    font-size: 2em !important;
+}
+footer{
+    text-align: center;
+    position: relative;
+    bottom:0;
+}
+.app-footer{
+    width: 100%;
+    background-color:#000026;
+    text-align: center;
+    color:#fff;
+    padding:15px 0px;
+}
+.app-footer a:hover{
+    color: #FD784F !important;
+}
+.app-footer img{
+    width:80px;
+    height: 60px;
+}
+.app-footer a{
+    color:#fff;
+}
+/************************APP STYLING*******************************/
+.header h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header h3,.header h5{
+    margin-bottom: 5%;
+}
+video[poster]{
+    height:100%;
+    width:100%;
+}
+.img-div .img-testimony{
+    width:100%;
+    height:250px;
+    margin:5% 0%;
+    border:2px solid #000;
+}
+.img-div .div1{
+    height:400px;
+}
+.img-text{
+   border:2px solid #000;
+   padding:5% 10%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+}
+.img-text img{
+    width:100%;
+    height:480px;
+}
+.video-text{
+   border:2px solid #000;
+   font-family:'Century Gothic';
+   text-align: center;
+   letter-spacing: 2px;
+}
+.video-text .header-text{
+    background:#efefef;
+    padding:5% 0%;
+}
+.video-text .t1{
+    padding:5% 15%;
+}
+.btn-reg{
+    background-color:#FF6600 !important;
+    width: 95%;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin-left: 4%;
+    border: none;
+    outline: none;
+}
+.btn-reg:hover{
+    opacity:0.9 !important;
+}
+.btn-note{
+    font-size: 0.9em;
+    margin-top: -9%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.noref{
+    width: 95%;
+    border: 4px dashed #d43e03;
+    margin-left: 4%;
+    padding: 20px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #fafd9e;
+    height: 70vh;
+}
+.noref h2{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+.noref p{
+    margin-bottom: 25px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.last-div{
+   border:2px solid #000;
+   padding:5% 3%;
+   font-family: 'Century Gothic';
+   text-align: center;
+   margin-top: 3em;
+   overflow-y: hidden;
+}
+.last-div .last-img,.last-img{
+    width: 600px;
+    border:2px solid #000;
+    margin-bottom:10px;
+} 
+.last-img1{
+    border:2px solid #000;
+    margin-bottom:10px;
+    width: 600px;
+    margin-left:9%;
+    padding-top: 5%;
+    background-color:#f0f6fd;
+}
+.div-container{
+    border:2px solid #000;
+    height:auto;
+    text-align: center;
+    background-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 100px;
+}
+.div-container h2{
+    font-weight: bolder;
+    margin-top: 5px;
+    padding:0px 50px;
+}
+.div-container h1{
+    font-weight: bolder;
+    margin-top: 1.5em;
+    font-size: 2.5em;
+    padding:0px !important;
+    font-family:'Trebuchet MS';
+}
+.div-container .btn-reg{
+    width:85%;
+}
+.div-container .last-img1{
+        border:2px solid #000;
+        margin-bottom:10px;
+        width: 750px;
+        margin:0px auto;
+        background-color:#f0f6fd;
+}
+.div-container .img2 img{
+    height: 600px;
+    width: 600px;
+    padding:0px 3px !important;
+}
+.div-container span{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: 'Trebuchet MS';
+}
+.terms{
+    width: 700px;
+    border:2px solid #000;
+    margin: 0px auto;
+    background-color:#faf3ef;
+    font-size:.95em;
+    padding:20px 0px;
+    margin-bottom:-10%;
+} 
+.terms p{
+    text-align: left;
+    padding:0px 30px;
+}
+.pls{
+    color:#d43e03 !important;
+    font-family:'Trebuchet MS';
+    font-size: .8em;
+}
+.text_swal{
+    color:#000 !important;
+    font-family: 'Trebuchet MS';
+    font-size: .9em;
+}
+.procid{
+    color:#fff !important;
+}
+.procid:hover{
+    color:rgba(255,255,255,.8) !important;
+}
+/************************ORDER STYLING*******************************/
+.row{
+    margin-bottom: 10%;
+}
+.flex-container .flex-item{
+    width: 70px;
+    height: 50px;
+    margin-top: -1em;
+}
+.flex-container p{
+    margin-top: -2em;
+}
+.h4-order{
+    text-align: center;
+    padding:1% 6%;
+    background-color:#eeecec;
+    font-family: 'Trebuchet MS';
+    font-weight: 700;
+}
+.row h4{
+    font-family: 'Trebuchet MS';
+    font-weight: 700;
+    text-align: center;
+}
+.box-order{
+    border:2px solid #000;
+    padding: 2% 5%;
+    background-color:#efefef;
+    height:60%;
+    width: 80%;
+    margin:0 auto;
+    line-height: 25px;
+}
+.box-order .col-md-6{
+    padding: 0%;
+}
+.box-order .item1{
+    margin-left: 50%;
+}
+.box-order p:first-child{
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Segoe UI Semibold';
+}
+hr{
+    border: 1px solid #555 !important;
+}
+hr+p{
+    color:#999;
+    font-family:'Georgia';
+    text-shadow: 0px 2px 0px #fff;
+}
+.box-order .item1,.box-order .item{
+    display: inline;
+    font-weight: 700;
+}
+.box-order+p{
+    font-weight: 700;
+    width:85%;
+    margin:0 auto;
+    padding-left: 6px;
+    text-align: center;
+    margin-top:1em;
+}
+.col-md-6>h3{
+    font-size: 1.2em;
+    font-family:'Trebuchet MS';
+}
+.payForm input{
+    padding:5%;
+    border: none;
+    border-bottom: 1px solid #efefef;
+    margin-top: 4%;
+}
+input::placeholder{
+    color:#ccc !important;
+}
+.form-check{
+    margin-bottom: 5%;
+}
+.form-check-label{
+    color:#888 !important;
+    font-family:'Trebuchet MS';
+    font-size: .8em;
+}
+#btn-pay{
+    font-size:1.2em !important;
+    width: 80%;
+    padding:2% !important;
+    opacity:.9;
+    font-family:'Trebuchet MS';
+}
+.order-text{
+    color:#888 !important;
+    font-size:.9em;
+}
+.order-cancel{
+    color:#777;
+}
+/************************RESPONSIVE STYLING*******************************/
+@media only screen and (max-width:900px) {
+    .last-div .last-img,.last-img1,.last-img1 .img-fluid,.div-container .last-img1,.div-container .last-img,.terms{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:768px) {
+    .container{
+        width: 100% !important;
+        margin: 2% 0%;
+    }
+    #content-1 .text1,#content-2 .text1{
+        font-size: 1.2em;
+    }
+    #content-1 .text2,#content-2 .text2{
+        font-size: 1.5em;
+    }
+    video{
+        margin-top: -220px !important;
+    }
+    .noref{
+        width: 100%;
+        height: 100%;
+        margin-left:0%;
+        overflow-y: hidden;
+        padding: 3% 3%;
+    }
+    .noref h2{
+        font-size: 1.5em;
+    }
+    .img-div .img-testimony{
+        height:180px;
+    }
+    .img-text{
+        padding:0% 0%;
+    }
+    .img-text h3{
+        font-size: 1.2rem;
+        margin-top: 1em;
+    }
+    .img-text img{
+        height:300px;
+    }
+    .btn-reg{
+        width: 100%;
+        margin-left:0% !important;
+        font-size: 1.5em !important;
+    }
+    .btn-reg h6{
+        font-size: .5em !important;
+    }
+    .btn-note{
+        margin-top:-5em;
+    }
+    .div-container .btn-reg{
+        font-size: 1.5em !important;
+        width: 100%;
+    }
+    .div-container{
+        padding:0% ;
+        padding:3% 3%;
+    }
+    .div-container h3,.div-container h1{
+        font-size:1.5em;
+    }
+    .video-text .t1{
+        padding:5% 1%;
+    }
+    .video-text iframe{
+        height: 240px;
+    }
+    .last-div h2, .video-text h3,.last-div h3{
+        font-size: 1.4rem;
+    }
+    .div-container span{
+        font-size: .8em;
+    }
+    .last-img1{
+        margin-left:0%;
+    }
+    .div-container .img2 img{
+        height: 280px;
+        width: 280px;
+    }
+    .terms{
+        margin-bottom: 0px;
+    }
+    .terms p{
+        font-size: .8em;
+        padding:0px 5px;
+    }
+    .app-footer img{
+        width:60px;
+        height: 40px;
+    }
+    .app-footer{
+        font-size:.8em;
+    }
+    .box-order{
+        height: 75%;
+    }
+    .order{
+        margin-top: 10% !important;
+    }
+    .order>p{
+       margin-left: 20%;
+       font-size:.9em;
+       margin-top:-3em;
+    }
+    .h4-order{
+        font-size:1em;
+        padding:3% 0%;
+    }
+    .order-img{
+        width: 100%;
+        height: 80px;
+    }
+    .box-order .item1{
+        margin-left: 40% !important;
+    }
+    #btn-pay{
+        width: 100%;
+        padding:5% 0% !important;
+    }
+}
